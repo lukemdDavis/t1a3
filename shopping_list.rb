@@ -48,6 +48,11 @@ def all_items(shopping_list)
    puts shopping_list.count()
 end
 
+def clear_items(shopping_list)
+    shopping_list.clear()
+    puts "The shopping list is now empty."
+end
+
 shopping_list = ["apples", "lettuce", "tomatoes", "potatoes", "steak", "milk", "cheese", "chips"]
 
 
