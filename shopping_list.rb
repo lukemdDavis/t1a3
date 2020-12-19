@@ -23,6 +23,15 @@ def add_products(shopping_list)
     puts shopping_list
 end
 
+def delete_item(shopping_list)
+    puts shopping_list
+    puts " "
+    puts "what would you like to remove from the list?"
+    item = gets.chomp
+     shopping_list.delete_if {|i| i == item}
+    puts item + " has been removed from #{$list_name}."
+    
+end
 
 
 shopping_list = ["apples", "lettuce", "tomatoes", "potatoes", "steak", "milk", "cheese", "chips"]
