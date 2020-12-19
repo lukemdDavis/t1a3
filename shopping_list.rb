@@ -39,16 +39,16 @@ while opt != "7"
         puts shopping_list
 
     when "2"
-        add_products()
+        add_products(shopping_list)
 
     when "3"
-        delete_item()
+        delete_item(shopping_list)
     when "4"
-        check_item()
+        check_item(shopping_list)
     when "5"
-        all_items()
+        all_items(shopping_list)
     when "6"
-        clear_items()
+        clear_items(shopping_list)
     when "7"
         puts opt
         puts "exiting..."
