@@ -3,7 +3,7 @@ require 'colorize'
 require 'bundler'
 require 'rspec'
 
-
+require_relative("./methods.rb")
 
 puts "what is your name"
 name = gets.chomp
