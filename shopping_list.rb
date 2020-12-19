@@ -26,7 +26,7 @@ opt=""
 while opt != "7"
 
 
-    opt = mainMenu
+    opt = maiMenu
     system "clear"
     case opt
 
