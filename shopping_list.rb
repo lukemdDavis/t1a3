@@ -5,9 +5,9 @@ require 'rspec'
 
 require_relative("./methods.rb")
 
-puts "what is your name"
+puts "what is your name".colorize(:blue)
 name = gets.chomp
-puts "what would you like to call you shopping list?"
+puts "what would you like to call you shopping list?".colorize(:green)
 list_name = gets.chomp
 puts "Alright #{name} lets start adding to #{$list_name}"
 
