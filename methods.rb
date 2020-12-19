@@ -1,6 +1,6 @@
 def maiMenu
     sleep (1)
-
+    prompt = TTY::Prompt.new
         array_options = [ "1. View shopping list",
         "2. Add item to shopping list",
         "3. Remove item from shopping list",
@@ -8,8 +8,12 @@ def maiMenu
         "5. How many items on shopping list",
         "6. Clear shopping list",
         "7. Exit"]
+        option = prompt.select("please select an option between 1 and 7", array_options)
+    
+        return option[0]
         
-return option[0]
+        end
+
 
 def add_products(shopping_list)
     print "What are you adding to the cart?"
