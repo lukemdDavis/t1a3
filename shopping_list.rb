@@ -33,6 +33,15 @@ def delete_item(shopping_list)
     
 end
 
+def check_item(shopping_list)
+    puts"What item would you like to check on the shopping list:"
+    item = gets.chomp
+    if shopping_list.include?(item)
+        puts  item + " is on the shopping list."
+    else
+        puts  item + " is not on the shopping list."
+end
+end
 
 shopping_list = ["apples", "lettuce", "tomatoes", "potatoes", "steak", "milk", "cheese", "chips"]
 
