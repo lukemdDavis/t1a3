@@ -19,3 +19,35 @@ return option
 shopping_list = ["apples", "lettuce", "tomatoes", "potatoes", "steak", "milk", "cheese", "chips"]
 
 
+opt=""
+while opt != "7"
+
+    opt = mainMenu
+    system "clear"
+    case opt
+
+    when "1"
+        puts shopping_list
+
+    when "2"
+        add_products()
+
+    when "3"
+        delete_item()
+    when "4"
+        check_item()
+    when "5"
+        all_items()
+    when "6"
+        clear_items()
+    when "7"
+        puts opt
+        puts "exiting..."
+        break
+    else
+        puts "invalid option"
+end
+puts "press Enter to view the menu"
+gets
+system "clear"
+end
