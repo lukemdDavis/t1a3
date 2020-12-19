@@ -14,6 +14,15 @@ def maiMenu
         "7. Exit"
 return option
 
+def add_products(shopping_list)
+    print "What are you adding to the cart?"
+    name = gets.chomp
+    shopping_list.push(name)
+    puts "Adding item to the cart!"
+    sleep(1)
+    puts shopping_list
+end
+
 
 
 shopping_list = ["apples", "lettuce", "tomatoes", "potatoes", "steak", "milk", "cheese", "chips"]
