@@ -5,13 +5,15 @@ list_name = gets.chomp
 puts "Alright #{name} lets start adding to #{$list_name}"
 
 def maiMenu
-        "1. View shopping list",
+    sleep (1)
+
+        array_options = [ "1. View shopping list",
         "2. Add item to shopping list",
         "3. Remove item from shopping list",
         "4. Check if item is on shopping list",
         "5. How many items on shopping list",
         "6. Clear shopping list",
-        "7. Exit"
+        "7. Exit"]
 return option
 
 def add_products(shopping_list)
