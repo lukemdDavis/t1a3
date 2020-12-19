@@ -43,6 +43,11 @@ def check_item(shopping_list)
 end
 end
 
+def all_items(shopping_list)
+    puts "the amount of items in the list"
+   puts shopping_list.count()
+end
+
 shopping_list = ["apples", "lettuce", "tomatoes", "potatoes", "steak", "milk", "cheese", "chips"]
 
 
