@@ -1,0 +1,11 @@
+source 'https://www.rubygems.org/'
+gem 'tty-prompt'
+
+source 'https://www.rubygems.org/'
+gem 'rspec'
+
+source 'https://www.rubygems.org/'
+gem 'bundler'
+
+source 'https://www.rubygems.org/'
+gem 'colorize'
